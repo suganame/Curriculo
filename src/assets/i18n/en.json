@@ -1,6 +1,7 @@
 {
   "PROFILE": {
-    "PROFESSION": "FullStack Developer"
+    "PROFESSION": "FullStack Developer",
+    "STREET": "Rua"
   },
   "CONTACT": {
     "TITLE": "Contact",
