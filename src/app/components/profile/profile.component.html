@@ -1,0 +1,37 @@
+<section class="h-auto relative bg-slate-100">
+  <div class="relative">
+    <app-profile-background></app-profile-background>
+  </div>
+  <div
+    class="relative w-full max-w-full lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl px-4 py-4 mx-auto"
+  >
+    <div
+      class="relative flex flex-col items-center md:flex-row md:items-start top-[-140px]"
+    >
+      <app-profile-picture></app-profile-picture>
+      <app-profile-description class="md:ml-8"></app-profile-description>
+    </div>
+
+    <div class="mt-[-120px] grid gap-[2rem] grid-cols-1 md:grid-cols-2">
+      <div>
+        <profile-contact />
+      </div>
+
+      <div>
+        <profile-education />
+      </div>
+
+      <div>
+        <profile-experience />
+      </div>
+
+      <div>
+        <profile-language />
+      </div>
+
+      <div class="md:col-span-2">
+        <profile-skill />
+      </div>
+    </div>
+  </div>
+</section>

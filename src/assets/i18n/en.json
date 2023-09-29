@@ -1,0 +1,25 @@
+{
+  "PROFILE": {
+    "PROFESSION": "FullStack Developer"
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "MOBILE": "Mobile"
+  },
+  "EDUCATION": {
+    "TITLE": "Education"
+  },
+  "WORK": {
+    "TITLE": "Experience"
+  },
+  "LANGUAGES": {
+    "TITLE": "LANGUAGES",
+    "ENGLISH": "English",
+    "PORTUGUESE": "Portuguese"
+  },
+  "SKILLS": {
+    "LANGUAGES": "Languages",
+    "DATABASES": "Databases",
+    "OTHERS": "Others"
+  }
+}

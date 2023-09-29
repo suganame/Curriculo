@@ -1,0 +1,41 @@
+{
+  
+  "CONTACT": {
+    "TITLE": "Contato",
+    "MOBILE": "Celular",
+    "ADDRESS": "Endereço"
+  },
+  "WORK": {
+    "TITLE": "Experiência"
+  },
+  "LANGUAGES": {
+    "TITLE": "Idiomas",
+    "PORTUGUESE": "Português",
+    "ENGLISH": "Inglês"
+  },
+  "EDUCATION": {
+    "TITLE": "Formação"
+  },
+  "SKILLS": {
+    "LANGUAGES": "Linguagens de Programação",
+    "DATABASES": "Bancos de dados",
+    "OTHERS": "Outros"
+  },
+  "MONTHS": {
+    "JANUARY": "Janeiro",
+    "FEBRUARY": "Fevereiro",
+    "MARCH": "Março",
+    "APRIL": "April",
+    "MAY": "Maio",
+    "JUNE": "Junho",
+    "JULY": "Julho",
+    "AUGUST": "Agosto",
+    "SEPTEMBER": "Setembro",
+    "OCTOBER": "Outubro",
+    "NOVEMBER": "Novembro",
+    "DECEMBER": "Dezembro"
+  },
+  "OTHERS": {
+    "PRESENT": "Atual"
+  }
+}
