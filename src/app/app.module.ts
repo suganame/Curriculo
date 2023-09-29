@@ -17,7 +17,6 @@ import { ProfileContactComponent } from './components/profile/components/profile
 import { ProfileLanguageComponent } from './components/profile/components/profile-language/profile-language.component';
 import { ProfileEducationComponent } from './components/profile/components/profile-education/profile-education.component';
 import { ProfileSkillComponent } from './components/profile/components/profile-skill/profile-skill.component';
-import { FooterComponent } from './footer/footer.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { bootstrapGithub } from '@ng-icons/bootstrap-icons';
 import {
@@ -46,7 +45,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProfileLanguageComponent,
     ProfileEducationComponent,
     ProfileSkillComponent,
-    FooterComponent,
   ],
   imports: [
     BrowserModule,
