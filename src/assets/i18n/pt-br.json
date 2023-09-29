@@ -1,5 +1,8 @@
 {
-  
+  "PROFILE": {
+    "PROFESSION": "FullStack Developer",
+    "STREET": "Rua"
+  },
   "CONTACT": {
     "TITLE": "Contato",
     "MOBILE": "Celular",
