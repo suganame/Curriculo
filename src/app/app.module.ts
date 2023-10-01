@@ -17,35 +17,14 @@ import { ProfileContactComponent } from './components/profile/components/profile
 import { ProfileLanguageComponent } from './components/profile/components/profile-language/profile-language.component';
 import { ProfileEducationComponent } from './components/profile/components/profile-education/profile-education.component';
 import { ProfileSkillComponent } from './components/profile/components/profile-skill/profile-skill.component';
-import { NgIconsModule } from '@ng-icons/core';
-import { bootstrapGithub } from '@ng-icons/bootstrap-icons';
-import {
-  matMailOutline,
-  matHomeOutline,
-  matPhoneAndroidOutline,
-} from '@ng-icons/material-icons/outline';
-
-import { bootstrapCodeSlash } from '@ng-icons/bootstrap-icons';
+import { ProfileModule } from './components/profile/profile.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    ProfileComponent,
-    ProfileBackgroundComponent,
-    ProfileDescriptionComponent,
-    ProfilePictureComponent,
-    ProfileSectionComponent,
-    ProfileExperienceComponent,
-    ProfileContactComponent,
-    ProfileLanguageComponent,
-    ProfileEducationComponent,
-    ProfileSkillComponent,
-  ],
+  declarations: [AppComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -57,14 +36,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient],
       },
     }),
-    NgIconsModule.withIcons({
-      bootstrapGithub,
-      matMailOutline,
-      matHomeOutline,
-      matPhoneAndroidOutline,
-      bootstrapCodeSlash,
-    }),
-    // MatIconModule,
+    ProfileModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
