@@ -1,0 +1,72 @@
+{
+  "PROFILE": {
+    "PROFESSION": "FullStack Developer",
+    "STREET": "St."
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "MOBILE": "Mobile",
+    "ADDRESS": "Adress"
+  },
+  "EDUCATION": {
+    "TITLE": "Education",
+    "COLLEGE": {
+      "COURSE": "Analisys and systems development"
+    },
+    "TECHNICAL": {
+      "COURSE": "Computer Technician"
+    }
+  },
+  "WORK": {
+    "TITLE": "Experience"
+  },
+  "LANGUAGES": {
+    "TITLE": "Languages",
+    "ENGLISH": "English",
+    "PORTUGUESE": "Portuguese"
+  },
+  "SKILLS": {
+    "LANGUAGES": "Programming Languages",
+    "DATABASES": "Databases",
+    "OTHERS": "Others"
+  },
+  "MONTHS": {
+    "JANUARY": "January",
+    "FEBRUARY": "February",
+    "MARCH": "March",
+    "APRIL": "April",
+    "MAY": "May",
+    "JUNE": "June",
+    "JULY": "July",
+    "AUGUST": "August",
+    "SEPTEMBER": "September",
+    "OCTOBER": "October",
+    "NOVEMBER": "November",
+    "DECEMBER": "December"
+  },
+  "OTHERS": {
+    "PRESENT": "Present"
+  },
+  "ABBREVIATION": {
+    "br": "Português",
+    "us": "English"
+  },
+  "EXPERIENCES": {
+    "CAPGEMINI": {
+      "RESPONSABILITY": "Backend for frontend developer and frontend developer",
+      "DESCRIPTION": "Development new soluctions to attend governamental demands for banks systems."
+    },
+    "KONVIX": {
+      "RESPONSABILITY": "Desenvolvedor fullstack",
+      "DESCRIPTION": "Development and maintenance in a new Web ERP software with focus in marketing sector."
+    },
+    "MIDORI": {
+      "RESPONSABILITY": "Support analyst and fullstack developer",
+      "DESCRIPTION": "Provisioning of support and development new features for ERP Protheus and creating new solutions to facilitate the internal process of company."
+    },
+    "INTERSOLID": {
+      "RESPONSABILITY": "Fullstack Developer",
+      "DESCRIPTION": "Maintaining and development new soluctions in ERP Solidus with focus in marketing sector."
+    }
+  }
+}

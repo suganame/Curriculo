@@ -7,9 +7,15 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'portfolio-angular';
+  defaultLanguage = 'br';
+  languange = this.defaultLanguage;
 
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('pt-br');
-    this.translate.use('pt-br');
+    this.translate.setDefaultLang(this.defaultLanguage);
+    this.translate.use(this.defaultLanguage);
+  }
+
+  changeLanguage(lang: string) {
+    this.translate.use(lang);
   }
 }

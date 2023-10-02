@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgIconsModule } from '@ng-icons/core';
-import { bootstrapGithub } from '@ng-icons/bootstrap-icons';
+import {
+  bootstrapGithub,
+  bootstrapGlobeAmericas,
+} from '@ng-icons/bootstrap-icons';
 import {
   matMailOutline,
   matHomeOutline,
@@ -42,6 +45,7 @@ import { TranslateModule } from '@ngx-translate/core';
       matHomeOutline,
       matPhoneAndroidOutline,
       bootstrapCodeSlash,
+      bootstrapGlobeAmericas,
     }),
     TranslateModule,
   ],
