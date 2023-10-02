@@ -1,0 +1,72 @@
+{
+  "PROFILE": {
+    "PROFESSION": "Desenvolvedor Fullstack",
+    "STREET": "Rua"
+  },
+  "CONTACT": {
+    "TITLE": "Contato",
+    "MOBILE": "Celular",
+    "ADDRESS": "Endereço"
+  },
+  "WORK": {
+    "TITLE": "Experiência"
+  },
+  "LANGUAGES": {
+    "TITLE": "Idiomas",
+    "PORTUGUESE": "Português",
+    "ENGLISH": "Inglês"
+  },
+  "EDUCATION": {
+    "TITLE": "Formação",
+    "COLLEGE": {
+      "COURSE": "Análise e desenvolvimento de sistemas"
+    },
+    "TECHNICAL": {
+      "COURSE": "Técnico em informática"
+    }
+  },
+  "SKILLS": {
+    "LANGUAGES": "Linguagens de Programação",
+    "DATABASES": "Bancos de dados",
+    "OTHERS": "Outros"
+  },
+  "MONTHS": {
+    "JANUARY": "Janeiro",
+    "FEBRUARY": "Fevereiro",
+    "MARCH": "Março",
+    "APRIL": "Abril",
+    "MAY": "Maio",
+    "JUNE": "Junho",
+    "JULY": "Julho",
+    "AUGUST": "Agosto",
+    "SEPTEMBER": "Setembro",
+    "OCTOBER": "Outubro",
+    "NOVEMBER": "Novembro",
+    "DECEMBER": "Dezembro"
+  },
+  "OTHERS": {
+    "PRESENT": "Atual"
+  },
+  "ABBREVIATION": {
+    "br": "Português",
+    "us": "English"
+  },
+  "EXPERIENCES": {
+    "CAPGEMINI": {
+      "RESPONSABILITY": "Desenvolvedor backend for frontend e desenvolvedor frontend",
+      "DESCRIPTION": "Desenvovimento em sistema bancários para atendimento em demandas regulatórias"
+    },
+    "KONVIX": {
+      "RESPONSABILITY": "Desenvolvedor fullstack",
+      "DESCRIPTION": "Desenvolvimento de um novo sistema ERP Web com foco no setor mercadológico."
+    },
+    "MIDORI": {
+      "RESPONSABILITY": "Analista de suporte e desenvolvedor fullstack",
+      "DESCRIPTION": "Prestação de suporte ao ERP Protheus e desenvovimento de novas soluções para facilitar processos internos da empresa."
+    },
+    "INTERSOLID": {
+      "RESPONSABILITY": "Desenvolvedor fullstack",
+      "DESCRIPTION": "Manutenção e Desenvolvimento de novas soluções com foco no ERP Solidus, voltado ao setor mercadológico."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+<div class="navbar flex justify-between items-center w-full bg-[#40407C]">
+  <div></div>
+  <div class="dropdown dropdown-end bg-ghost self-end">
+    <label tabindex="0" class="btn btn-sm w-auto h-auto py-1">
+      <ng-icon name="matTranslate" class="mr-2"></ng-icon>
+      <svg
+        class="w-2.5 h-2.5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 10 6"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="m1 1 4 4 4-4"
+        />
+      </svg>
+    </label>
+    <ul
+      class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+    >
+      <li
+        *ngFor="let language of languages"
+        (click)="onChangeLanguageClick(language.abbreviation)"
+      >
+        <a
+          href="#"
+          [ngClass]="{ active: language.abbreviation === currentLanguage }"
+          ><span class="{{ language.class }}"></span
+          >{{ 'ABBREVIATION.' + language.abbreviation | translate }}</a
+        >
+      </li>
+    </ul>
+    <!-- [className]="{ active: language.abbreviation === currentLanguage }" -->
+    <!-- class=`fi fi-${language.abbreviation} fis` -->
+    <!-- <button class="btn" type="button">
+      <span class="fi fi-br fis"></span>
+      <svg
+        class="w-2.5 h-2.5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 10 6"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="m1 1 4 4 4-4"
+        />
+      </svg>
+    </button> -->
+    <!-- <ul
+      class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+    >
+      <li (click)="onChangeLanguageClick('br')">
+        <a href="#"><span class="fi fi-br fis"></span>Português</a>
+      </li>
+      <li>
+        <a href="#" (click)="onChangeLanguageClick('us')"
+          ><span class="fi fi-us fis"></span>English</a
+        >
+      </li>
+    </ul> -->
+  </div>
+</div>
